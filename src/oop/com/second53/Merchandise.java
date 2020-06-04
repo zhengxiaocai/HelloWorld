@@ -61,9 +61,9 @@ public class Merchandise {
             return -1;
         }
         this.count -= count;
-        if (isVIP){
+        if (isVIP) {
             return soldPrice * count * 0.95;
-        }else {
+        } else {
             return soldPrice * count;
         }
     }
