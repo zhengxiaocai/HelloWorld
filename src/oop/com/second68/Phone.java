@@ -1,5 +1,7 @@
 package oop.com.second68;
 
+import oop.com.second73.MerchandiseV2;
+
 public class Phone extends Merchandises {
 
     private double screenSize;

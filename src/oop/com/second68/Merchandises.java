@@ -8,6 +8,7 @@ public class Merchandises {
     public double soldPrice;
     public double purchasePrice;
 
+
     // >> TODO: ~~~~~构造方法的重载~~~~~
     // >> TODO: 在构造方法里才能调用重载的构造方法，语法为 this(参数列表)
     // >> TODO: 构造方法不能自己调用自己，这会是一个死循环。
@@ -47,6 +48,5 @@ public class Merchandises {
         }
         return this.count -= count;
     }
-
 
 }
