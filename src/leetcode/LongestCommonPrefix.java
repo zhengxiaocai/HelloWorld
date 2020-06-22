@@ -13,5 +13,7 @@ public class LongestCommonPrefix {
         for (int i = 0; i < minLenStr; i++) {
             
         }
+
+        return result;
     }
 }
