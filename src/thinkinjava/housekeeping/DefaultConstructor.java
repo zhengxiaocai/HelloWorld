@@ -1,9 +1,10 @@
 package thinkinjava.housekeeping;
 
-class Bird{}
+class Bird {
+}
 
 /**
- *
+ * 无参构造器
  */
 
 public class DefaultConstructor {

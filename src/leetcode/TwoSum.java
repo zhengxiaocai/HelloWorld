@@ -2,6 +2,7 @@ package leetcode;
 
 /**
  * https://leetcode-cn.com/problems/two-sum/
+ * O(n^2)
  */
 public class TwoSum {
     public int[] twoSum(int[] nums, int target) {
