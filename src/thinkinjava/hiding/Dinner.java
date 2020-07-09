@@ -1,11 +1,11 @@
 package thinkinjava.hiding;
 
-import thinkinjava.hiding.dessert.*;
+import thinkinjava.hiding.dessert.Cookie;
 
 public class Dinner {
 
     public static void main(String[] args) {
-        Cookie x = new Cookie();
-//        x.bite(); >>TODO: 访问权限不行。
+        Cookie c = new Cookie();
+//        c.bite(); >>TODO: new Cookie.bite() 是默认包权限，包外访问不了。
     }
 }
